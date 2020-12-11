@@ -1,32 +1,69 @@
-
-*{
-	box-sizing:border-box;
+* {
+  box-sizing: border-box;
 }
 
-.button {
-  background-color: #ed7d0c;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80px 80px 80px;
 }
 
-.header{
-	display:grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 80px 80px 80px;
+.header-button-div {
+  text-align: center
 }
 
-.header-logo-div{
-	text-align:center;
+.navbar-logo {
+  float: left;
 }
 
-.header-text-div{
-	text-align:center
+.img-content {
+  transform: scaleX(-1);
+  top: 0 left:30px
 }
-.header-button-div{
-	text-align:center
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
 }
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  right: 0px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  border: 0;
+}
+
+.row-content {
+  position: fixed;
+  top: 350px;
+  left: 0px;
+  height: 100px;
+  width:1000px;
+}
+.badge
+	 {
+
+			 width:500px;
+			 height:43px;
+			 border-radius:1px;
+			 -webkit-border-radius:4px;
+			 background:#32cd32;
+			 color:white;
+
+
+	 }
+	 .even-larger-badge {
+	     font-size: 1.3em;
+
+	 }
